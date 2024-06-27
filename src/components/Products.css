@@ -1,0 +1,63 @@
+.products-container {
+    padding: 20px;
+  }
+  
+  .date-picker {
+    width: 100%;
+  }
+  
+  .cart-container {
+    position: fixed;
+    right: 0;
+    top: 30px;
+    height: 90%;
+    width: 280px;
+    overflow-y: auto;
+    background: #fff;
+    border-left: 1px solid #ddd;
+    padding: 16px;
+  }
+  
+  .cart-card {
+    width: 100%;
+  }
+  
+  .cart-item {
+    margin-bottom: 16px;
+  }
+
+  .top-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .buton{
+    background-color:mediumseagreen;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  .buton:hover{
+    background-color:mediumspringgreen !important;
+    color: white !important;
+  }
+  .fatura-modal{
+    background-color: mediumaquamarine !important;
+  }
+  .remove-buton{
+    border-radius: 50px; 
+    padding: 10px 20px; 
+    background-color: red; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+  }
+  
+  
+  
+  

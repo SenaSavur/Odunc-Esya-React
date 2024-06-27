@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ccc;
+  }
+  
+  .container {
+    display: flex;
+    background: #fff;
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Tüm kenarlardan eşit boşluk */
+    margin: 20px; /* Üst ve alttan boşluk eklemek için */
+  }
+  
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    width: 50%; /* İstenilen genişlik */
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .image-section img {
+    width: 100%; /* Resmin genişliğini tam olarak ayarlayın */
+    height: 100%; /* Yüksekliği otomatik olarak ayarlayın */
+    border-radius: 10px;
+  }
+  .login-section {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:dimgray;
+}
+  p {
+    margin-bottom: 20px;
+  }
+
+  .login-form-button{
+    width: 60%;
+    font-size: 18px;
+    background-color:mediumseagreen;
+  }
+  .button :hover{
+    background-color: darkgreen;
+  }
+  
+  

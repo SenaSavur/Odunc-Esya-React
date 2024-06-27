@@ -1,0 +1,53 @@
+.layout {
+    min-height: 100vh;
+  }
+  
+  .header {
+    padding: 0;
+    background: var(--ant-layout-header-background);
+  }
+  
+  .menu-button {
+    font-size: 16px;
+    width: 64px;
+    height: 64px;
+  }
+  
+  .content {
+    margin: 24px 16px;
+    padding: 24px;
+    min-height: 280px;
+    background: var(--ant-layout-content-background);
+    border-radius: var(--ant-border-radius-lg);
+  }
+  .ant-layout-sider {
+    background-color: #ccc !important;
+  }
+  .menu-design{
+    background-color: #ccc !important;
+  }
+  /* Menüdeki ikonlar ve yazılar için renk ayarı */
+  .ant-menu-dark .ant-menu-item-selected {
+    background-color: mediumseagreen !important;
+  }
+  
+  .ant-menu-dark .ant-menu-item-selected a, 
+  .ant-menu-dark .ant-menu-item-selected a:hover {
+    color: white !important;
+  }
+  
+  .ant-menu-dark .ant-menu-item:hover {
+    background-color: #3cb371 !important; /* Hover rengi */
+  }
+  
+  .ant-menu-dark .ant-menu-item a {
+    color: white !important;
+    font-size: 16px;
+  }
+  
+  .ant-menu-dark .ant-menu-item a:hover {
+    color: #f0f0f0 !important;
+  }
+  .ant-menu-dark .ant-menu-item {
+    font-size: 20px; /* Yazı boyutunu arttırın */
+  }
